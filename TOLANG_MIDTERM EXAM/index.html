@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>TOLANG-MIDTERM EXAM</title>
+</head>
+<body>
+    <section class="header" id="Home">
+        <nav>
+            <a href="index.html"><img src="img/logo 2.png" width="150px" height="150px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#Home">HOME</a></li>
+                    <li><a href="#Blog">BLOG</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1> SURVIVAL </h1>
+            <p> What this means is that we exist to help protect our environment and do numbers of ways.</p>
+            <a href="#About" class="visit-btn">LEARN MORE</a>
+        </div>
+    </section>
+
+
+
+
+<!------- Blog ------->
+
+    <section class="blog" id="Blog">
+        <div class="blog-text">
+            <h1> Screaming monkeys, 'headless' penguins and face-planting zebras take top honors in Comedy Wildlife awards</h1>
+            <p> The 2022 Comedy Wildlife Photography Award finalists show wildlife's greatest goofblass, from skeptical owls to barfing fish.</p>
+        </div>
+
+        <div class="gallery">
+            
+
+        <div class="row">
+            <div class="animals-col">
+                <img src="image gallery/deer1.jpg">
+            </div>
+            <div class="animals-col">
+                <img src="image gallery/deer2.jpeg">
+            </div>
+            <div class="animals-col">
+                <img src="image gallery/deer3.jpeg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="animals-col">
+                <img src="image gallery/squirrel3.jpeg">
+            </div>
+            <div class="animals-col">
+                <img src="image gallery/squirrel1.jpeg">
+            </div>
+            <div class="animals-col">
+                <img src="image gallery/squirrel2.jpeg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="animals-col">
+                <img src="image gallery/birds1.jpeg">
+            </div>
+            <div class="animals-col">
+                <img src="image gallery/birds3.jpeg">
+            </div>
+            <div class="animals-col">
+                <img src="image gallery/birds2.jpeg">
+            </div>
+        </div>
+
+        <div id="Contact" class="contact-background main">
+            <div class="contact">
+              <div class="bg-white-box w-100">
+                <h1>Get notified about new amazing articles</h1>
+                <div class="form">
+                  <input type="text" class="form-input" />
+                  <a href="" class="btn-form-submit">Send</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+
+ <!------- Footer ------->
+
+      <section class="footer2" id="footer">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo 2.png" width="150px" height="150px"></a>
+        </div>
+
+        <div class="footer-links">
+            <ul>
+                <li><a href="#Blog">Articles</a></li>
+                <li><a href="#Contact">About us</a></li>
+                <li><a href="#Contact">Learn More</a></li>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <div class="footer-links">
+                <ul>
+                    <a href=""><img src="img/facebook.png"></a>
+                    <a href=""><img src="img/instagram.png"></a>
+                    <a href=""><img src="img/pinterest.png"></a>
+                </ul>
+            </div>
+        </div>
+      </section>
+
+
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

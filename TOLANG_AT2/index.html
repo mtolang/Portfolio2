@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>TOLANG_AT2</title>
+    
+</head>
+<body>
+    <section class="header" id="Home">
+        <nav>
+            <a href="index.html"><img src="img/ulysses2.png" width="120px" height="120px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#Home">HOME</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="#Product">PRODUCT</a></li>
+                    <li><a href="#Location">LOCATION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1> ULYSSES</h1>
+            <p> Art Shop</p>
+            <a href="#About" class="visit-btn">EXPLORE NOW</a>
+        </div>
+    </section>
+
+
+    <!---------About--------->
+    <section class="About" id="About">
+        <h1 class="ah1"> ABOUT US</h1>
+        <div class="row">
+            <div class="about-col">
+                <img src="img/international brands.jpg">
+                <img src="img/art.jpg">
+            </div>
+            <div class="about-col">
+                <div class="about-content">
+                <h2 class="ah2"> ULYSSES</h2>
+                <h3 class="ah3">Art Shop</h3>
+                <p class="ap">
+                    is a passion project of a group of crafters and maker with a shared interest in creating and shopping for hard-to-find materials.
+                    <br>
+                    We are a multidimentional brand that aims to build a community where are thrives, through our products and workshops.
+                </p>
+            </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!------- Product ------->
+
+    <section class="product" id="Product">
+        <h1 class="ph1">Products and More</h1>
+
+        <div class="row">
+            <div class="product-col">
+                <img src="img/art product.jpg">
+                <h3 class="ph3">Local Products</h3>
+                <p>Excellent arts and crafts created by homegrown brands</p>
+            </div>
+            <div class="product-col">
+                <img src="img/brands2.jpg">
+                <h3 class="ph3">International Brands</h3>
+                <p>World-class art supplies from reputable brands</p>
+            </div>
+            <div class="product-col">
+                <img src="img/workshop.jpg">
+                <h3 class="ph3">Events & Workshops</h3>
+                <p>Craft parties and events for crafters and makers</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-------------- Location ---------------->
+
+    <section class="location" id="Location">
+        <div class="row">
+            <div class="location-col">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126365.95516640092!2d126.2648367288105!3d8.209181349936335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fdb96ed9a28fed%3A0x8d256cb43302e1b9!2sBislig%2C%20Surigao%20del%20Sur!5e0!3m2!1sen!2sph!4v1663853168746!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="location-col">
+            <div class="location-content">
+            <h1 class="lh1"> Location </h1>
+            <p class="lp"> The Ulysses Art Shop is located in Bislig City , Surigao Del Sur.</p>
+            <a href="contact.html" class="contactus-btn">CONTACT US</a>
+        </div>
+        </div>
+        </div>
+
+    </section>
+
+    
+    <!---------- Footer -------------->
+    <Section class="footer">
+        <h4> Thank You For Visiting </h4> 
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p> Made with Visual Studio Code by Tolang, Martin Rey</p>
+
+    </Section>
+
+
+
+
+    <!---------Toggle Menu------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
